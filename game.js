@@ -166,6 +166,14 @@ function launchFireworks(finalScore) {
     overlay.classList.add("fireworks-fade-out");
     setTimeout(() => {
       overlay.hidden = true;
+      // Remise à zéro de l'état et de l'affichage après la fermeture de l'overlay
+      score = 0;
+      timeLeft = ROUND_DURATION_SECONDS;
+      currentCard = null;
+      deck = [];
+      targetWordEl.textContent = "Appuie sur Démarrer";
+      forbiddenListEl.innerHTML = "";
+      updateHud();
     }, 800);
   }, 4500);
 }
@@ -176,8 +184,9 @@ function finishRound() {
   isRunning = false;
   clearInterval(timerId);
   timerId = null;
+  const finalScore = score;
   lockRoundUI(true);
-  launchFireworks(score);
+  launchFireworks(finalScore);
 }
 
 function tick() {
