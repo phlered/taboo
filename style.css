@@ -43,13 +43,6 @@ body {
   color: #dae3ed;
 }
 
-.hud {
-  margin-top: 14px;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 8px;
-}
-
 .chip {
   background: rgba(255, 255, 255, 0.12);
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -126,7 +119,8 @@ body {
 }
 
 .transport {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
 }
 
 .btn {
@@ -158,10 +152,64 @@ body {
   color: #1d1300;
 }
 
-.status {
-  margin: 12px 4px 0;
-  color: #e8eef5;
-  min-height: 1.3em;
+.btn-reset {
+  background: #355070;
+}
+
+/* ── Feux d'artifice ───────────────────────────────────────── */
+
+.fireworks-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(10, 20, 30, 0.88);
+}
+
+.fireworks-overlay[hidden] {
+  display: none;
+}
+
+#fireworksCanvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.fireworks-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 24px 32px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 24px;
+  backdrop-filter: blur(6px);
+}
+
+.fireworks-title {
+  font-family: "Fraunces", serif;
+  font-size: clamp(26px, 7vw, 44px);
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.fireworks-score {
+  font-size: clamp(52px, 16vw, 90px);
+  font-weight: 700;
+  color: var(--accent-2);
+  line-height: 1;
+}
+
+.fireworks-fade-out {
+  animation: fwFadeOut 0.8s forwards;
+}
+
+@keyframes fwFadeOut {
+  to { opacity: 0; }
 }
 
 @media (min-width: 768px) {

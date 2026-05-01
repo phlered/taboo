@@ -13,12 +13,13 @@
   <main class="app">
     <header class="topbar">
       <h1>iTaboo</h1>
-      <p>Fais deviner sans dire les mots interdits.</p>
     </header>
 
-    <section class="hud" aria-label="Tableau de bord">
-      <div class="chip timer" id="timer">02:00</div>
-      <div class="chip score">Score: <span id="score">0</span></div>
+    <section class="card" id="card" aria-live="polite">
+      <p class="label">Mot à deviner</p>
+      <h2 id="targetWord">Appuie sur Démarrer</h2>
+      <p class="label">Mots interdits</p>
+      <ul id="forbiddenList"></ul>
     </section>
 
     <section class="settings" aria-label="Paramètres">
@@ -31,26 +32,25 @@
       </select>
     </section>
 
-    <section class="card" id="card" aria-live="polite">
-      <p class="label">Mot à deviner</p>
-      <h2 id="targetWord">Appuie sur Démarrer</h2>
-      <p class="label">Mots interdits</p>
-      <ul id="forbiddenList"></ul>
-    </section>
-
     <section class="actions" aria-label="Actions carte">
       <button id="guessedBtn" class="btn btn-primary" disabled>Deviné</button>
-      <button id="skipBtn" class="btn btn-secondary" disabled>Passé</button>
+      <button id="skipBtn" class="btn btn-secondary" disabled>Passer</button>
     </section>
 
     <section class="transport" aria-label="Contrôle partie">
-      <button id="startBtn" class="btn btn-start">Démarrer</button>
-      <button id="pauseBtn" class="btn" disabled>Pause</button>
-      <button id="resetBtn" class="btn" disabled>Reset</button>
+      <button id="startResetBtn" class="btn btn-start" data-mode="start">Démarrer</button>
+      <div class="chip timer" id="timer">02:00</div>
+      <div class="chip score">Score : <span id="score">0</span></div>
     </section>
-
-    <p class="status" id="status">Sélectionne un niveau puis lance la partie.</p>
   </main>
+
+  <div id="fireworksOverlay" class="fireworks-overlay" hidden>
+    <canvas id="fireworksCanvas"></canvas>
+    <div class="fireworks-content">
+      <div class="fireworks-title">Partie terminée !</div>
+      <div class="fireworks-score" id="fireworksScore"></div>
+    </div>
+  </div>
 
   <script src="game.js" defer></script>
 </body>
