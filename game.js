@@ -1,6 +1,9 @@
 const ROUND_DURATION_SECONDS = 120;
 
 const targetWordEl = document.getElementById("targetWord");
+const targetLabelEl = document.getElementById("targetLabel");
+const forbiddenLabelEl = document.getElementById("forbiddenLabel");
+const idleHintEl = document.getElementById("idleHint");
 const forbiddenListEl = document.getElementById("forbiddenList");
 const timerEl = document.getElementById("timer");
 const scoreEl = document.getElementById("score");
@@ -61,7 +64,20 @@ function refillDeck() {
   return deck.length;
 }
 
+function showIdleState(message = "Appuie sur Démarrer") {
+  targetWordEl.textContent = message;
+  targetLabelEl.hidden = true;
+  forbiddenLabelEl.hidden = true;
+  forbiddenListEl.hidden = true;
+  forbiddenListEl.innerHTML = "";
+  idleHintEl.hidden = false;
+}
+
 function showCard(card) {
+  targetLabelEl.hidden = false;
+  forbiddenLabelEl.hidden = false;
+  forbiddenListEl.hidden = false;
+  idleHintEl.hidden = true;
   targetWordEl.textContent = card.mot_a_deviner;
   forbiddenListEl.innerHTML = "";
   card.mots_interdits.forEach((word) => {
@@ -75,8 +91,7 @@ function nextCard() {
   if (deck.length === 0) {
     refillDeck();
     if (deck.length === 0) {
-      targetWordEl.textContent = "Aucune carte";
-      forbiddenListEl.innerHTML = "";
+      showIdleState("Aucune carte");
       guessedBtn.disabled = true;
       skipBtn.disabled = true;
       return;
@@ -171,8 +186,7 @@ function launchFireworks(finalScore) {
       timeLeft = ROUND_DURATION_SECONDS;
       currentCard = null;
       deck = [];
-      targetWordEl.textContent = "Appuie sur Démarrer";
-      forbiddenListEl.innerHTML = "";
+      showIdleState("Appuie sur Démarrer");
       updateHud();
     }, 800);
   }, 4500);
@@ -223,8 +237,7 @@ function resetRound() {
   timeLeft = ROUND_DURATION_SECONDS;
   currentCard = null;
 
-  targetWordEl.textContent = "Appuie sur Démarrer";
-  forbiddenListEl.innerHTML = "";
+  showIdleState("Appuie sur Démarrer");
 
   lockRoundUI(true);
   updateHud();
@@ -257,8 +270,7 @@ difficultyEl.addEventListener("change", () => {
   }
   currentCard = null;
   deck = [];
-  targetWordEl.textContent = "Appuie sur Démarrer";
-  forbiddenListEl.innerHTML = "";
+  showIdleState("Appuie sur Démarrer");
 });
 
 // ── Chargement des cartes ────────────────────────────────────────────────────
@@ -270,10 +282,11 @@ async function bootstrap() {
     cards = await response.json();
     updateHud();
   } catch (error) {
-    targetWordEl.textContent = "Erreur de chargement";
+    showIdleState("Erreur de chargement");
   }
 }
 
 lockRoundUI(true);
 updateHud();
+showIdleState("Appuie sur Démarrer");
 bootstrap();

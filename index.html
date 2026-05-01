@@ -13,23 +13,22 @@
   <main class="app">
     <header class="topbar">
       <h1>iTaboo</h1>
+      <section class="settings" aria-label="Paramètres">
+        <select id="difficulty" aria-label="Niveau">
+          <option value="all">Tous</option>
+          <option value="facile">Facile</option>
+          <option value="moyen">Moyen</option>
+          <option value="difficile">Difficile</option>
+        </select>
+      </section>
     </header>
 
     <section class="card" id="card" aria-live="polite">
-      <p class="label">Mot à deviner</p>
+      <p class="label" id="targetLabel" hidden>Mot à deviner</p>
       <h2 id="targetWord">Appuie sur Démarrer</h2>
-      <p class="label">Mots interdits</p>
-      <ul id="forbiddenList"></ul>
-    </section>
-
-    <section class="settings" aria-label="Paramètres">
-      <label for="difficulty">Niveau</label>
-      <select id="difficulty">
-        <option value="all">Tous</option>
-        <option value="facile">Facile</option>
-        <option value="moyen">Moyen</option>
-        <option value="difficile">Difficile</option>
-      </select>
+      <p class="idle-hint" id="idleHint">Fais deviner un mot sans prononcer les mots interdits.</p>
+      <p class="label" id="forbiddenLabel" hidden>Mots interdits</p>
+      <ul id="forbiddenList" hidden></ul>
     </section>
 
     <section class="actions" aria-label="Actions carte">
