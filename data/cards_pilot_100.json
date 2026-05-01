@@ -1,0 +1,1058 @@
+[
+  {
+    "mot_a_deviner": "être",
+    "mots_interdits": [
+      "exister",
+      "devenir",
+      "situation",
+      "état",
+      "nature"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "aller",
+    "mots_interdits": [
+      "déplacement",
+      "marcher",
+      "voyager",
+      "se déplacer",
+      "partir"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "faire",
+    "mots_interdits": [
+      "créer",
+      "réaliser",
+      "agir",
+      "produire",
+      "effectuer"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "mon",
+    "mots_interdits": [
+      "possessif",
+      "moi",
+      "appartenir",
+      "propre",
+      "individuel"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "mes",
+    "mots_interdits": [
+      "possessif",
+      "moi",
+      "appartenir",
+      "propre",
+      "individuel"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "cette",
+    "mots_interdits": [
+      "démonstratif",
+      "proche",
+      "ici",
+      "indique",
+      "spécifique"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "cet",
+    "mots_interdits": [
+      "démonstratif",
+      "proche",
+      "ici",
+      "indique",
+      "spécifique"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "ces",
+    "mots_interdits": [
+      "démonstratif",
+      "proche",
+      "ici",
+      "indique",
+      "spécifique"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "pouvoir",
+    "mots_interdits": [
+      "capacité",
+      "force",
+      "autorisation",
+      "possibilité",
+      "habilité"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "dire",
+    "mots_interdits": [
+      "parler",
+      "exprimer",
+      "annoncer",
+      "déclarer",
+      "communiquer"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "vouloir",
+    "mots_interdits": [
+      "désirer",
+      "souhaiter",
+      "intention",
+      "préférer",
+      "choisir"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "savoir",
+    "mots_interdits": [
+      "connaître",
+      "information",
+      "apprendre",
+      "comprendre",
+      "éducation"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "ses",
+    "mots_interdits": [
+      "possessif",
+      "appartenir",
+      "propre",
+      "individuel",
+      "leur"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "voir",
+    "mots_interdits": [
+      "regarder",
+      "apercevoir",
+      "observer",
+      "vision",
+      "perception"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "tes",
+    "mots_interdits": [
+      "possessif",
+      "appartenir",
+      "propre",
+      "individuel",
+      "votre"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "votre",
+    "mots_interdits": [
+      "possessif",
+      "appartenir",
+      "propre",
+      "individuel",
+      "tes"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "venir",
+    "mots_interdits": [
+      "arriver",
+      "approcher",
+      "se déplacer",
+      "rejoindre",
+      "entrer"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "penser",
+    "mots_interdits": [
+      "réfléchir",
+      "cogiter",
+      "idée",
+      "opinion",
+      "considérer"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "parler",
+    "mots_interdits": [
+      "discuter",
+      "communiquer",
+      "exprimer",
+      "dire",
+      "annoncer"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "prendre",
+    "mots_interdits": [
+      "attraper",
+      "saisir",
+      "acquérir",
+      "obtenir",
+      "recevoir"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "croire",
+    "mots_interdits": [
+      "penser",
+      "avoir foi",
+      "conviction",
+      "opinion",
+      "assumer"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "aimer",
+    "mots_interdits": [
+      "affection",
+      "adorer",
+      "préférer",
+      "sentiment",
+      "passion"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "notre",
+    "mots_interdits": [
+      "possessif",
+      "appartenir",
+      "propre",
+      "individuel",
+      "nos"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "nos",
+    "mots_interdits": [
+      "possessif",
+      "appartenir",
+      "propre",
+      "individuel",
+      "notre"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "passer",
+    "mots_interdits": [
+      "déplacer",
+      "transiter",
+      "traverser",
+      "franchir",
+      "continuer"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "trouver",
+    "mots_interdits": [
+      "découvrir",
+      "localiser",
+      "identifier",
+      "chercher",
+      "obtenir"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "quelques",
+    "mots_interdits": [
+      "certains",
+      "plusieurs",
+      "nombreux",
+      "divers",
+      "variés"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "quelque",
+    "mots_interdits": [
+      "certains",
+      "plusieurs",
+      "nombreux",
+      "divers",
+      "variés"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "laisser",
+    "mots_interdits": [
+      "abandonner",
+      "permettre",
+      "autoriser",
+      "relâcher",
+      "libérer"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "attendre",
+    "mots_interdits": [
+      "patienter",
+      "espérer",
+      "retard",
+      "suspendre",
+      "rester"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "homme",
+    "mots_interdits": [
+      "masculin",
+      "mâle",
+      "individu",
+      "personne",
+      "garçon"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "arriver",
+    "mots_interdits": [
+      "venir",
+      "atteindre",
+      "parvenir",
+      "se rendre",
+      "entrer"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "falloir",
+    "mots_interdits": [
+      "nécessiter",
+      "devoir",
+      "obligation",
+      "exiger",
+      "imposer"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "appeler",
+    "mots_interdits": [
+      "nommer",
+      "téléphoner",
+      "inviter",
+      "interpeller",
+      "signaler"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "donner",
+    "mots_interdits": [
+      "offrir",
+      "transmettre",
+      "remettre",
+      "fournir",
+      "accorder"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "temps",
+    "mots_interdits": [
+      "durée",
+      "moment",
+      "horloge",
+      "seconde",
+      "minute"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "juste",
+    "mots_interdits": [
+      "exact",
+      "précis",
+      "correct",
+      "équitable",
+      "équilibre"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "regarder",
+    "mots_interdits": [
+      "voir",
+      "observer",
+      "scruter",
+      "examiner",
+      "contempler"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "quelle",
+    "mots_interdits": [
+      "interrogatif",
+      "demander",
+      "choisir",
+      "spécifique",
+      "particulier"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "quels",
+    "mots_interdits": [
+      "interrogatif",
+      "demander",
+      "choisir",
+      "spécifique",
+      "particulier"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "quelles",
+    "mots_interdits": [
+      "interrogatif",
+      "demander",
+      "choisir",
+      "spécifique",
+      "particulier"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "quel",
+    "mots_interdits": [
+      "interrogatif",
+      "demander",
+      "choisir",
+      "spécifique",
+      "particulier"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "besoin",
+    "mots_interdits": [
+      "nécessité",
+      "exigence",
+      "demande",
+      "envie",
+      "désir"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "partir",
+    "mots_interdits": [
+      "quitter",
+      "s'en aller",
+      "départ",
+      "s'éloigner",
+      "se déplacer"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "père",
+    "mots_interdits": [
+      "parent",
+      "homme",
+      "papa",
+      "figura",
+      "géniteur"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "sûr",
+    "mots_interdits": [
+      "certain",
+      "confiant",
+      "sécurisé",
+      "assuré",
+      "clair"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "vie",
+    "mots_interdits": [
+      "existence",
+      "vivre",
+      "temps",
+      "expérience",
+      "durée"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "arrêter",
+    "mots_interdits": [
+      "cesser",
+      "interrompre",
+      "stopper",
+      "finir",
+      "terminer"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "accord",
+    "mots_interdits": [
+      "concorde",
+      "entente",
+      "consensus",
+      "approbation",
+      "acceptation"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "tuer",
+    "mots_interdits": [
+      "mort",
+      "violence",
+      "assassiner",
+      "meurtre",
+      "sacrifier"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "fois",
+    "mots_interdits": [
+      "nombre",
+      "occasion",
+      "répéter",
+      "temps",
+      "moment"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "mettre",
+    "mots_interdits": [
+      "placer",
+      "poser",
+      "installer",
+      "déposer",
+      "ajouter"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "demander",
+    "mots_interdits": [
+      "questionner",
+      "interroger",
+      "requête",
+      "exiger",
+      "solliciter"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "jour",
+    "mots_interdits": [
+      "lumière",
+      "matin",
+      "soir",
+      "temps",
+      "date"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "sortir",
+    "mots_interdits": [
+      "quitter",
+      "partir",
+      "départ",
+      "évasion",
+      "sortie"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "monde",
+    "mots_interdits": [
+      "terre",
+      "univers",
+      "planète",
+      "humanité",
+      "société"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "peu",
+    "mots_interdits": [
+      "moins",
+      "quelque",
+      "rare",
+      "infime",
+      "minime"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "connaître",
+    "mots_interdits": [
+      "savoir",
+      "apprendre",
+      "rencontrer",
+      "identifier",
+      "découvrir"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "essayer",
+    "mots_interdits": [
+      "tenter",
+      "expérimenter",
+      "prouver",
+      "tester",
+      "éprouver"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "mourir",
+    "mots_interdits": [
+      "décès",
+      "fin",
+      "perdre",
+      "vivre",
+      "s'éteindre"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "comprendre",
+    "mots_interdits": [
+      "saisir",
+      "percevoir",
+      "interpréter",
+      "analyser",
+      "réaliser"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "vrai",
+    "mots_interdits": [
+      "faux",
+      "réel",
+      "authentique",
+      "exact",
+      "sincère"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "autre",
+    "mots_interdits": [
+      "différent",
+      "second",
+      "supplémentaire",
+      "alternatif",
+      "distinct"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "aider",
+    "mots_interdits": [
+      "assister",
+      "soutenir",
+      "secourir",
+      "contribuer",
+      "faciliter"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "dieu",
+    "mots_interdits": [
+      "divinité",
+      "religion",
+      "croyance",
+      "sacré",
+      "spirituel"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "ami",
+    "mots_interdits": [
+      "copain",
+      "compagnon",
+      "camarade",
+      "partenaire",
+      "allié"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "leur",
+    "mots_interdits": [
+      "possessif",
+      "appartenir",
+      "à eux",
+      "propriété",
+      "groupe"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "leurs",
+    "mots_interdits": [
+      "possessif",
+      "appartenir",
+      "à eux",
+      "propriété",
+      "groupe"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "entendre",
+    "mots_interdits": [
+      "écouter",
+      "percevoir",
+      "son",
+      "bruit",
+      "réception"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "papa",
+    "mots_interdits": [
+      "père",
+      "famille",
+      "parent",
+      "homme",
+      "figura"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "femme",
+    "mots_interdits": [
+      "fille",
+      "mère",
+      "épouse",
+      "dame",
+      "féminin"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "monsieur",
+    "mots_interdits": [
+      "homme",
+      "titre",
+      "respect",
+      "mâle",
+      "personne"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "chercher",
+    "mots_interdits": [
+      "rechercher",
+      "trouver",
+      "explorer",
+      "découvrir",
+      "investiguer"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "enfant",
+    "mots_interdits": [
+      "jeune",
+      "gamin",
+      "petit",
+      "ado",
+      "descendant"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "gens",
+    "mots_interdits": [
+      "personnes",
+      "individus",
+      "population",
+      "communauté",
+      "société"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "toute",
+    "mots_interdits": [
+      "chaque",
+      "entière",
+      "complète",
+      "totalité",
+      "ensemble"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "toutes",
+    "mots_interdits": [
+      "chaque",
+      "entière",
+      "complète",
+      "totalité",
+      "ensemble"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "heure",
+    "mots_interdits": [
+      "temps",
+      "minute",
+      "seconde",
+      "horloge",
+      "moment"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "maison",
+    "mots_interdits": [
+      "habitation",
+      "domicile",
+      "logement",
+      "foyer",
+      "résidence"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "problème",
+    "mots_interdits": [
+      "difficulté",
+      "situation",
+      "obstacle",
+      "question",
+      "trouble"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "écouter",
+    "mots_interdits": [
+      "entendre",
+      "percevoir",
+      "son",
+      "bruit",
+      "attention"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "fille",
+    "mots_interdits": [
+      "jeune",
+      "femme",
+      "enfant",
+      "dame",
+      "féminin"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "soir",
+    "mots_interdits": [
+      "nuit",
+      "fin",
+      "coucher",
+      "crépuscule",
+      "temps"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "nom",
+    "mots_interdits": [
+      "titre",
+      "identité",
+      "appel",
+      "désignation",
+      "étiquette"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "perdre",
+    "mots_interdits": [
+      "défaite",
+      "manquer",
+      "abandonner",
+      "laisser",
+      "échouer"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "finir",
+    "mots_interdits": [
+      "terminer",
+      "achever",
+      "compléter",
+      "conclure",
+      "arrêter"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "sentir",
+    "mots_interdits": [
+      "percevoir",
+      "odorat",
+      "émotion",
+      "ressentir",
+      "expérience"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "raison",
+    "mots_interdits": [
+      "logique",
+      "motif",
+      "explication",
+      "justification",
+      "cause"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "jouer",
+    "mots_interdits": [
+      "s'amuser",
+      "participer",
+      "activité",
+      "sport",
+      "divertissement"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "nuit",
+    "mots_interdits": [
+      "sombre",
+      "nocturne",
+      "coucher",
+      "étoiles",
+      "temps"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "travailler",
+    "mots_interdits": [
+      "emploi",
+      "boulot",
+      "activité",
+      "effort",
+      "profession"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "moment",
+    "mots_interdits": [
+      "instant",
+      "temps",
+      "période",
+      "occasion",
+      "durée"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "fils",
+    "mots_interdits": [
+      "enfant",
+      "garçon",
+      "descendant",
+      "héritier",
+      "jeune"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "commencer",
+    "mots_interdits": [
+      "débuter",
+      "initier",
+      "lancer",
+      "entamer",
+      "ouvrir"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "plaire",
+    "mots_interdits": [
+      "satisfaire",
+      "attirer",
+      "charmer",
+      "ravir",
+      "contenter"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "rendre",
+    "mots_interdits": [
+      "donner",
+      "retourner",
+      "restituer",
+      "offrir",
+      "transmettre"
+    ],
+    "niveau": "facile"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "mot_a_deviner": "chien",
+    "mots_interdits": [
+      "usage",
+      "taille",
+      "objet",
+      "matiere",
+      "forme"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "maison",
+    "mots_interdits": [
+      "notion",
+      "quotidien",
+      "taille",
+      "action",
+      "matiere"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "voiture",
+    "mots_interdits": [
+      "usage",
+      "idee",
+      "objet",
+      "matiere",
+      "quotidien"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "ecole",
+    "mots_interdits": [
+      "notion",
+      "objet",
+      "idee",
+      "couleur",
+      "quotidien"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "plage",
+    "mots_interdits": [
+      "notion",
+      "idee",
+      "objet",
+      "forme",
+      "matiere"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "bibliotheque",
+    "mots_interdits": [
+      "forme",
+      "objet",
+      "taille",
+      "idee",
+      "action"
+    ],
+    "niveau": "moyen"
+  },
+  {
+    "mot_a_deviner": "parapluie",
+    "mots_interdits": [
+      "forme",
+      "taille",
+      "idee",
+      "objet",
+      "usage"
+    ],
+    "niveau": "moyen"
+  },
+  {
+    "mot_a_deviner": "pneumatique",
+    "mots_interdits": [
+      "objet",
+      "taille",
+      "notion",
+      "idee",
+      "quotidien"
+    ],
+    "niveau": "moyen"
+  },
+  {
+    "mot_a_deviner": "endomorphisme",
+    "mots_interdits": [
+      "taille",
+      "forme",
+      "matiere",
+      "usage",
+      "action"
+    ],
+    "niveau": "difficile"
+  },
+  {
+    "mot_a_deviner": "epistemologie",
+    "mots_interdits": [
+      "matiere",
+      "couleur",
+      "quotidien",
+      "taille",
+      "objet"
+    ],
+    "niveau": "difficile"
+  }
+]

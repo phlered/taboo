@@ -1,0 +1,112 @@
+[
+  {
+    "mot_a_deviner": "chien",
+    "mots_interdits": [
+      "animal",
+      "domestique",
+      "aboyer",
+      "compagnon",
+      "canin"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "maison",
+    "mots_interdits": [
+      "habitation",
+      "bâtiment",
+      "toit",
+      "chambre",
+      "famille"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "voiture",
+    "mots_interdits": [
+      "transport",
+      "roues",
+      "conduire",
+      "moteur",
+      "route"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "ecole",
+    "mots_interdits": [
+      "études",
+      "élèves",
+      "enseignant",
+      "savoir",
+      "cours"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "plage",
+    "mots_interdits": [
+      "sable",
+      "mer",
+      "soleil",
+      "vacances",
+      "bain"
+    ],
+    "niveau": "facile"
+  },
+  {
+    "mot_a_deviner": "bibliotheque",
+    "mots_interdits": [
+      "livres",
+      "lecture",
+      "étude",
+      "salle",
+      "document"
+    ],
+    "niveau": "moyen"
+  },
+  {
+    "mot_a_deviner": "parapluie",
+    "mots_interdits": [
+      "pluie",
+      "protection",
+      "ombre",
+      "accessoire",
+      "couvercle"
+    ],
+    "niveau": "moyen"
+  },
+  {
+    "mot_a_deviner": "pneumatique",
+    "mots_interdits": [
+      "roue",
+      "air",
+      "pression",
+      "voiture",
+      "gonflable"
+    ],
+    "niveau": "moyen"
+  },
+  {
+    "mot_a_deviner": "endomorphisme",
+    "mots_interdits": [
+      "mathématiques",
+      "transformation",
+      "fonction",
+      "algèbre",
+      "structure"
+    ],
+    "niveau": "difficile"
+  },
+  {
+    "mot_a_deviner": "epistemologie",
+    "mots_interdits": [
+      "connaissance",
+      "philosophie",
+      "savoir",
+      "science",
+      "théorie"
+    ],
+    "niveau": "difficile"
+  }
+]
