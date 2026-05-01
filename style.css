@@ -83,9 +83,9 @@ body {
   background: var(--card);
   color: var(--ink);
   border-radius: 18px;
-  padding: 14px;
+  padding: 12px;
   box-shadow: var(--shadow);
-  min-height: 300px;
+  min-height: 280px;
 }
 
 .label {
@@ -97,10 +97,10 @@ body {
 }
 
 #targetWord {
-  margin: 8px 0 12px;
+  margin: 6px 0 10px;
   font-size: clamp(28px, 9vw, 44px);
   line-height: 1.05;
-  min-height: clamp(132px, 30vw, 176px);
+  min-height: clamp(72px, 18vw, 110px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -108,9 +108,9 @@ body {
 }
 
 .idle-hint {
-  margin: 0 0 8px;
+  margin: 0 0 6px;
   color: var(--muted);
-  font-size: 15px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -119,23 +119,23 @@ body {
   padding: 0;
   margin: 0;
   display: grid;
-  gap: 8px;
+  gap: 6px;
 }
 
 #forbiddenList li {
   background: #f7fafc;
   border-left: 4px solid var(--accent);
-  padding: 10px;
+  padding: 9px;
   border-radius: 10px;
   font-weight: 600;
 }
 
 .actions,
 .transport {
-  margin-top: 12px;
+  margin-top: 10px;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px;
+  gap: 8px;
 }
 
 .transport {
@@ -146,7 +146,7 @@ body {
 .btn {
   border: 0;
   border-radius: 12px;
-  padding: 14px 12px;
+  padding: 12px 11px;
   font: inherit;
   font-weight: 700;
   color: #fff;
