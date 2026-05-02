@@ -96,3 +96,19 @@ python -m pip install -r requirements.txt
 Vérif : 
 which python
 python -m pip --version
+
+
+# Création de nouvelles cartes :
+Si votre objectif est d’atteindre 6000 cartes valides dans cards.json, le plus simple est de relancer sur la fenêtre complète 1 à 6000 ; le script sautera les déjà présentes et tentera uniquement les manquantes :
+
+source .venv/bin/activate
+python scripts/generate_cards.py \
+  --start 0 \
+  --count 6000 \
+  --batch-size 50 \
+  --output cards.json \
+  --rejected data/rejected_cards.json
+
+NB les ''' sont importants
+Puis vérifiez :
+python scripts/validate_cards.py --cards cards.json
