@@ -39,15 +39,22 @@ body {
   gap: 10px;
 }
 
+.title-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
 .topbar h1 {
   margin: 6px 0 2px;
   font-family: "Fraunces", serif;
   letter-spacing: 0.4px;
 }
 
-.topbar p {
+.cards-count {
   margin: 0;
   color: #dae3ed;
+  font-size: 13px;
+  font-weight: 500;
 }
 
 .chip {

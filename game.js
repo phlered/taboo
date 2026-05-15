@@ -8,6 +8,7 @@ const forbiddenListEl = document.getElementById("forbiddenList");
 const timerEl = document.getElementById("timer");
 const scoreEl = document.getElementById("score");
 const difficultyEl = document.getElementById("difficulty");
+const cardsCountEl = document.getElementById("cardsCount");
 
 const guessedBtn = document.getElementById("guessedBtn");
 const skipBtn = document.getElementById("skipBtn");
@@ -55,6 +56,12 @@ function lockRoundUI(locked) {
     startResetBtn.classList.remove("btn-start");
     startResetBtn.classList.add("btn-reset");
   }
+}
+
+function updateCardsCount() {
+  if (!cardsCountEl) return;
+  const total = cards.length;
+  cardsCountEl.textContent = `${total} carte${total > 1 ? "s" : ""} disponible${total > 1 ? "s" : ""}`;
 }
 
 function refillDeck() {
@@ -280,8 +287,10 @@ async function bootstrap() {
     const response = await fetch("cards.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     cards = await response.json();
+    updateCardsCount();
     updateHud();
   } catch (error) {
+    if (cardsCountEl) cardsCountEl.textContent = "Nombre de cartes indisponible";
     showIdleState("Erreur de chargement");
   }
 }
