@@ -43,22 +43,27 @@ body {
 .launch-mark {
   display: grid;
   justify-items: center;
-  gap: 12px;
+  gap: 18px;
 }
 
 .launch-logo {
-  width: clamp(86px, 24vw, 112px);
-  height: clamp(86px, 24vw, 112px);
-  border-radius: 24px;
-  box-shadow: 0 20px 40px rgba(8, 20, 32, 0.5);
+  width: clamp(180px, 48vw, 280px);
+  height: clamp(180px, 48vw, 280px);
+  border-radius: 44px;
+  box-shadow:
+    0 0 0 3px rgba(255, 255, 255, 0.22),
+    0 0 34px rgba(243, 167, 18, 0.45),
+    0 0 52px rgba(235, 94, 40, 0.38),
+    0 20px 44px rgba(8, 20, 32, 0.6);
   animation: launchPop 2s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
 }
 
 .launch-name {
   margin: 0;
   font-family: "Fraunces", serif;
-  font-size: clamp(28px, 6vw, 44px);
-  letter-spacing: 0.03em;
+  font-size: clamp(36px, 8vw, 62px);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
   color: #f7fbff;
   animation: launchNameGlow 2s ease forwards;
 }
@@ -304,42 +309,55 @@ body {
 
 @keyframes launchPop {
   0% {
-    transform: scale(0.74) rotate(-10deg);
+    transform: scale(0.38) rotate(-18deg);
     opacity: 0;
+    filter: saturate(1.1) brightness(1.15);
   }
 
-  35% {
-    transform: scale(1.06) rotate(2deg);
+  28% {
+    transform: scale(1.24) rotate(10deg);
     opacity: 1;
+    filter: saturate(1.35) brightness(1.18);
+  }
+
+  48% {
+    transform: scale(0.95) rotate(-6deg);
+    opacity: 1;
+    filter: saturate(1.2) brightness(1.1);
   }
 
   70% {
-    transform: scale(1) rotate(0deg);
+    transform: scale(1.06) rotate(2deg);
     opacity: 1;
+    filter: saturate(1.05) brightness(1.04);
   }
 
   100% {
-    transform: scale(0.96);
+    transform: scale(0.86) rotate(0deg);
     opacity: 0;
+    filter: none;
   }
 }
 
 @keyframes launchNameGlow {
   0% {
     opacity: 0;
-    transform: translateY(8px);
+    transform: translateY(14px) scale(0.9);
     text-shadow: none;
   }
 
   45% {
     opacity: 1;
-    transform: translateY(0);
-    text-shadow: 0 0 20px rgba(243, 167, 18, 0.35);
+    transform: translateY(0) scale(1.05);
+    text-shadow:
+      0 0 14px rgba(255, 255, 255, 0.35),
+      0 0 28px rgba(243, 167, 18, 0.55),
+      0 0 42px rgba(235, 94, 40, 0.45);
   }
 
   100% {
     opacity: 0;
-    transform: translateY(-4px);
+    transform: translateY(-8px) scale(0.97);
     text-shadow: none;
   }
 }
@@ -368,6 +386,16 @@ body {
 }
 
 @media (max-width: 480px) {
+  .launch-logo {
+    width: clamp(150px, 62vw, 230px);
+    height: clamp(150px, 62vw, 230px);
+    border-radius: 36px;
+  }
+
+  .launch-name {
+    font-size: clamp(30px, 10vw, 46px);
+  }
+
   .topbar {
     gap: 8px;
   }
