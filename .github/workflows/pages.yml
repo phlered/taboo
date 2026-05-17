@@ -28,6 +28,10 @@ jobs:
           cp style.css dist/
           cp game.js dist/
           cp cards.json dist/
+          cp icon.png dist/
+          cp apple-touch-icon.png dist/
+          cp apple-touch-icon-180.png dist/
+          cp site.webmanifest dist/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

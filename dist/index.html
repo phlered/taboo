@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="iTaboo">
+  <meta name="theme-color" content="#0f172a">
+  <title>iTaboo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon-180.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-180.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div class="title-wrap">
+        <h1>iTaboo</h1>
+        <p id="cardsCount" class="cards-count" aria-live="polite">Chargement des cartes...</p>
+      </div>
+      <section class="settings" aria-label="Paramètres">
+        <select id="difficulty" aria-label="Niveau">
+          <option value="all">Tous</option>
+          <option value="facile">Facile</option>
+          <option value="moyen">Moyen</option>
+          <option value="difficile">Difficile</option>
+        </select>
+      </section>
+    </header>
+
+    <section class="card" id="card" aria-live="polite">
+      <p class="label" id="targetLabel" hidden>Mot à deviner</p>
+      <h2 id="targetWord">Appuie sur Démarrer</h2>
+      <p class="idle-hint" id="idleHint">Fais deviner un mot sans prononcer les mots interdits.</p>
+      <p class="label" id="forbiddenLabel" hidden>Mots interdits</p>
+      <ul id="forbiddenList" hidden></ul>
+    </section>
+
+    <section class="actions" aria-label="Actions carte">
+      <button id="guessedBtn" class="btn btn-primary" disabled>Deviné</button>
+      <button id="skipBtn" class="btn btn-secondary" disabled>Passer</button>
+    </section>
+
+    <section class="transport" aria-label="Contrôle partie">
+      <button id="startResetBtn" class="btn btn-start" data-mode="start">Démarrer</button>
+      <div class="chip timer" id="timer">02:00</div>
+      <div class="chip score">Score : <span id="score">0</span></div>
+    </section>
+  </main>
+
+  <div id="fireworksOverlay" class="fireworks-overlay" hidden>
+    <canvas id="fireworksCanvas"></canvas>
+    <div class="fireworks-content">
+      <div class="fireworks-title">Partie terminée !</div>
+      <div class="fireworks-score" id="fireworksScore"></div>
+    </div>
+  </div>
+
+  <script src="game.js" defer></script>
+</body>
+</html>
