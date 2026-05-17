@@ -20,16 +20,49 @@ body {
   font-family: "Space Grotesk", sans-serif;
   color: #f5f7fa;
   min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
   background:
     radial-gradient(circle at 15% 20%, rgba(243, 167, 18, 0.25), transparent 35%),
     radial-gradient(circle at 85% 10%, rgba(235, 94, 40, 0.25), transparent 30%),
     linear-gradient(160deg, var(--bg-1), var(--bg-2));
 }
 
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  pointer-events: none;
+  z-index: 0;
+}
+
+body::before {
+  inset: -10vh -8vw;
+  background:
+    radial-gradient(circle at 20% 30%, rgba(255, 255, 255, 0.18), transparent 32%),
+    radial-gradient(circle at 80% 72%, rgba(243, 167, 18, 0.22), transparent 30%),
+    url("icon.png") center / min(64vw, 520px) no-repeat;
+  opacity: 0.1;
+  transform: rotate(-8deg);
+}
+
+body::after {
+  width: 42vmin;
+  height: 42vmin;
+  right: -12vmin;
+  bottom: -10vmin;
+  border-radius: 50%;
+  background: conic-gradient(from 120deg, rgba(243, 167, 18, 0.36), rgba(235, 94, 40, 0.3), rgba(63, 152, 217, 0.28), rgba(243, 167, 18, 0.36));
+  filter: blur(20px);
+  opacity: 0.5;
+}
+
 .app {
   max-width: 760px;
   margin: 0 auto;
   padding: 16px 14px 24px;
+  position: relative;
+  z-index: 1;
 }
 
 .topbar {
@@ -42,6 +75,20 @@ body {
 .title-wrap {
   display: flex;
   flex-direction: column;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 11px;
+  object-fit: cover;
+  box-shadow: 0 8px 20px rgba(8, 20, 32, 0.38);
 }
 
 .topbar h1 {
@@ -250,12 +297,37 @@ body {
 }
 
 @media (max-width: 480px) {
+  body::before {
+    inset: -8vh -10vw;
+    background-size: 76vw;
+    opacity: 0.08;
+    transform: rotate(-6deg);
+  }
+
+  body::after {
+    width: 48vmin;
+    height: 48vmin;
+    right: -16vmin;
+    bottom: -14vmin;
+    opacity: 0.42;
+  }
+
   .topbar {
     gap: 8px;
   }
 
   .topbar h1 {
     font-size: 32px;
+  }
+
+  .brand {
+    gap: 8px;
+  }
+
+  .brand-icon {
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
   }
 
   .settings select {
